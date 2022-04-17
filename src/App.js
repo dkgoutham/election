@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
+import election from "../ethereum/election"; //instance of the contract, can call the contract function using this.
+
 function App() {
+  useEffect(() => {
+    // const countVotes = async()=>{
+    //   const count = await election.methods.count(); 
+    // }
+  },[]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      hello
     </div>
   );
 }
